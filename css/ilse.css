@@ -1,0 +1,609 @@
+header img
+{
+	width: 100%;
+}
+
+header
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+main
+{ 
+	margin: 2em;
+} 
+
+h1
+{
+	text-align: left;
+	font-family: Arial, sans-serif;
+}
+
+ul.inhoud
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 0.5em;
+	grid-row-gap: 0; 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.inhoud li
+{
+	display: block;
+	font-family: Arial, sans-serif;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+
+nav
+{	
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 0em;
+	margin: 0em;
+}
+
+nav li
+{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc; 
+}
+
+nav a
+{
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	color: #000;
+}
+
+nav a:focus, nav a:hover 
+{
+	background-color: #ddd; 
+} 
+
+nav .selected
+{
+	background-color: #ddd;
+}
+
+table
+{
+	font-family: Arial, sans-serif;
+	font-size: 1.1em; 
+	border-spacing: 5px;
+	margin: 0em;
+}
+
+td
+{
+	padding: 10px;
+}
+
+tr:nth-child(even)
+{
+	background-color: #f6f6f6;
+}
+
+fieldset.persoonlijk
+{
+	margin-top: 20px;
+	border: 1px solid #d6d6d6;
+	background-color: #ffffff;
+	line-height: 1.6em; 
+	text-align: center;
+	font-size: 1.2em;
+	font-family: Arial, sans-serif;
+	border-radius: 5px;
+	width: 15%;
+}
+
+fieldset.nieuwsbrieff
+{
+	width: 400px;
+	margin-top: 20px;
+	border: 1px solid #d6d6d6;
+	background-color: #ffffff;
+	line-height: 1.6em; 
+	text-align: center;
+	font-size: 1.2em;
+	font-family: Arial, sans-serif;
+	border-radius: 5px;
+}
+
+input, textarea
+{
+	font-size: 1em;
+	padding: 6px;
+	border: 1px solid #ddd;
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	box-sizing: border-box;
+}
+
+textarea
+{
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	height: 100px;
+	margin-bottom: 1em;
+}
+
+legend
+{
+	font-style: italic;
+	color: #666666;
+	background-color: #efefef;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+a.hier
+{
+	list-style: none;
+	display: inline;
+}
+
+h2.info
+{
+	font-size: 1em; 
+	font-weight: normal;
+}
+
+h2.infoo
+{
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+}
+
+p.intro
+{
+	font-family: Arial;
+	font-size: 1em;
+}
+
+img.homefoto, img.nieuwsfoto
+{
+	float: left;
+	padding-right: 1.5em;
+}
+
+img.concert
+{
+	float: right;
+	padding-right: 10em;
+}
+
+img.hits
+{
+	float: right;
+	padding-right: 1.5em;
+}
+
+img.programmas
+{
+	float: right;
+	padding-right: 1.5em;
+	padding-top: 0em;
+}
+
+img.cariere
+{
+	float: left;
+	padding-right: 1.5em;
+	padding-top: 0.5em;
+}
+
+img.tcl, img.tuckerville
+{
+	float: left;
+	padding-right: 1.5em;
+}
+
+p.nieuwsinfo
+{
+	font-family: Arial;
+	font-size: 1em;
+}
+
+a.aanmelden 
+{
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	color: #000;
+	background-color: #efefef; 
+	font-family: Arial, sans-serif;
+	text-align: center;
+	border-radius: 5px;
+}
+
+a.bestel
+{
+	text-decoration: none;
+	color: #000;
+	background-color: #efefef; 
+	font-family: Arial, sans-serif;
+	display: inline-block;
+	float: right;
+	text-align: right;
+	padding: 10px;
+	margin-right: 140px;
+	border-radius: 5px;
+}
+
+form.nieuwsbrief
+{
+	padding-left: 32em;
+	font-family: Arial, sans-serif;
+}
+
+p.bedankt, p.bedanktt
+{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+ul.producten
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 0em;
+	grid-row-gap: 1em; 
+	list-style: none;
+	margin: 0;
+	padding-left: 103px;
+}
+
+ul.producten li
+{
+	background-color: #fff;
+	padding: 1em;
+	text-align: center;
+	position: relative;
+	cursor: default; 
+	transition: all 0.5s ease;
+	width: 60%;
+	height: 90%;
+	font-family: Arial, sans-serif;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	margin: 0em;
+}
+
+ul.producten li:hover
+{
+	box-shadow: 0 0 10px 0;
+	z-index: 99;
+}
+
+a.knop
+{
+	font-size: 1.0em;
+	width: 150px;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 10px;
+}
+
+article
+{ 
+	font-family: Arial, sans-serif;
+	padding: 0;
+}
+
+h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 1.0em;
+}
+
+p.cdhurricane
+{
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-size: 1em; 
+	text-align: left;
+	width: 80%;
+	float: left;
+}
+
+h1.cdafter
+{
+	font-family: Arial, sans-serif;
+	font-size: 1.5em;
+	text-align: left;
+	width: 80%;
+	float: left;
+}
+
+ul.liedjes li
+{
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: left;
+	list-style: none;
+	width: 55%;
+	float: left;
+}
+
+footer
+{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 1.0em;
+} 
+
+div.producten
+{
+	overflow: auto;
+	display: inline;
+} 
+
+h2.welkenummers
+{
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 55%;
+	float: left;
+	padding-left: 30px;
+}
+
+article.contact
+{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 1.1em;
+}
+
+a.reactie
+{
+	text-decoration: none;
+	color: #000;
+	background-color: #efefef; 
+	font-family: Arial, sans-serif;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+fieldset.invoer
+{
+	width: 400px;
+	margin-top: 20px;
+	border: 1px solid #d6d6d6;
+	background-color: #fff;
+	line-height: 1.6em; 
+	text-align: center;
+	font-size: 1.1em;
+	font-family: Arial, sans-serif;
+	border-radius: 5px;
+	margin-left: 500px;
+}
+
+@media (max-width: 800px)
+{
+	nav, main
+	{
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	
+	ul.inhoud li
+	{
+		display: block;
+		font-family: Arial, sans-serif;
+		width: 100%;
+		font-size: 0.8em;
+		list-style: none;
+		text-align: center;
+		position: relative;
+		cursor: pointer;
+	}
+		
+	ul.inhoud
+	{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 0; 
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	img.product
+	{
+		width: 150px;
+		height: 150px; 
+	}
+	
+	img.homefoto, img.concert
+	{
+		width: 100px;
+		height: 120px;
+		float: none;
+		padding: 0;
+		display: block;
+		margin: 0px auto;
+	}
+	
+	img.nieuwsfoto, img.cariere
+	{
+		width: 100px;
+		height: 150px;
+		float: none;
+		padding: 0;
+		display: block;
+		margin: 0px auto;
+	}
+	
+	img.hits, img.tcl, img.tuckerville
+	{
+		width: 130px;
+		height: 130px;
+		float: none;
+		padding: 0;
+		display: block;
+		margin: 0px auto;
+	}
+	
+	img.programmas
+	{
+		width: 200px;
+		height: 130px;
+		float: none;
+		padding: 0;
+		display: block;
+		margin: 0px auto;
+	}
+
+	h1
+	{
+		text-align: center;  
+	}
+	
+	article 
+	{
+		margin: 5%; 
+	}
+	
+	h1
+	{
+		font-size: 1.2em;
+	}
+	
+	p
+	{
+		font-size: 1em; 
+	} 
+	
+	table
+	{
+		font-size: 0.6em;
+	}
+	
+	form.nieuwsbrief, form.formulier
+	{
+		padding-left: 0.4em;
+		font-family: Arial, sans-serif;
+	}
+	
+	form.contactt
+	{
+		padding: 0;
+	}
+	
+	fieldset.nieuwsbrieff
+	{
+		width: 250px;
+		margin-top: 20px;
+		border: 1px solid #d6d6d6;
+		background-color: #ffffff;
+		line-height: 1.6em; 
+		text-align: center;
+		font-size: 1em;
+		font-family: Arial, sans-serif;
+		border-radius: 5px;
+	}
+
+	fieldset.persoonlijk
+	{
+		margin-top: 20px;
+		border: 1px solid #d6d6d6;
+		background-color: #ffffff;
+		line-height: 1.6em; 
+		text-align: center;
+		font-size: 1em;
+		font-family: Arial, sans-serif;
+		border-radius: 5px;
+		width: 250px;
+	}	
+	
+	fieldset.invoer
+	{
+		width: 250px;
+		margin-top: 20px;
+		border: 1px solid #d6d6d6;
+		background-color: #fff;
+		line-height: 1.6em; 
+		text-align: center;
+		font-size: 1em;
+		font-family: Arial, sans-serif;
+		border-radius: 5px;
+	}
+	
+	ul.inhoud li
+	{
+		display: block;
+		font-family: Arial, sans-serif;
+		width: 100%;
+		list-style: none;
+		text-align: center;
+		position: relative;
+		cursor: pointer;
+	}
+	
+	ul.producten
+	{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-column-gap: 0em;
+		grid-row-gap: 1em; 
+		list-style: none;
+		margin: 1em;
+		padding-left: 1.4em;
+	}
+	
+	ul.producten li
+	{
+		background-color: #fff;
+		padding: 1em;
+		text-align: center;
+		position: relative;
+		cursor: default; 
+		transition: all 0.5s ease;
+		width: 80%;
+		height: 90%;
+		font-family: Arial, sans-serif;
+		border: 2px solid #cccccc;
+		border-radius: 10px;
+		margin: 0em;
+	}
+	
+	footer
+	{
+		font-size: 0.8em;
+	}
+}
+
+	
+
+
+	
+	
+	
+	
+
+
